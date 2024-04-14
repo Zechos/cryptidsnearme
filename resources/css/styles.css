@@ -7,8 +7,6 @@ html {
     font-family: 'Woolwich';
     font-size: 16px;
     background-color: #5E835D;
-    display: flex;
-    max-width: 960px;
     color: #1a1a1a;
 }
 
@@ -36,18 +34,19 @@ div {
 /* Body */
 
 body {
-    max-width: 960px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0px;
+    text-align: center;
 }
 
 div.wrapper {
     width: calc(100% - 4rem);
     max-width: 960px;
     margin: 0 auto;
+    
 }
 
 header img {
